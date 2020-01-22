@@ -1,3 +1,4 @@
 def oxford_comma(array)
-  array.
+ comma_string = array.slice(0, -2).join(", ") + " and " + array[-1]
+ comma_string
 end
